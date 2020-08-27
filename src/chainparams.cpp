@@ -138,7 +138,7 @@ public:
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // BETLLER starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
-        consensus.nBudgetCycleBlocks = 43200;       // approx. 1 every 30 days
+        consensus.nBudgetCycleBlocks = 43200;       // approx. 1 every 15 days
         consensus.nBudgetFeeConfirmations = 6;      // Number of confirmations for the finalization fee
         consensus.nCoinbaseMaturity = 50;
         consensus.nFutureTimeDriftPoW = 7200;
@@ -149,7 +149,7 @@ public:
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 3 * 60 * 60; // 3 hours minimum stake time
         consensus.nStakeMinDepth = 5;
-		consensus.nTargetTimespan = 1 * 60;
+	consensus.nTargetTimespan = 10 * 60;
         consensus.nTargetTimespanV2 = consensus.nTargetTimespan;
         consensus.nTargetSpacing = 2 * 60; // 2 minute blocktime
         consensus.nTimeSlotLength = 15;
