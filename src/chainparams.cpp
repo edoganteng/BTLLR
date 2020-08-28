@@ -142,14 +142,14 @@ public:
         consensus.nBudgetFeeConfirmations = 6;      // Number of confirmations for the finalization fee
         consensus.nCoinbaseMaturity = 50;
         consensus.nFutureTimeDriftPoW = 7200;
-        consensus.nFutureTimeDriftPoS = 180;
+        consensus.nFutureTimeDriftPoS = 30;
         consensus.nMasternodeCountDrift = 20;
         consensus.nMaxMoneyOut = 1000000000 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 3 * 60 * 60; // 3 hours minimum stake time
         consensus.nStakeMinDepth = 5;
-	consensus.nTargetTimespan = 10 * 60;
+	   consensus.nTargetTimespan = 1 * 60;
         consensus.nTargetTimespanV2 = consensus.nTargetTimespan;
         consensus.nTargetSpacing = 2 * 60; // 2 minute blocktime
         consensus.nTimeSlotLength = 15;
