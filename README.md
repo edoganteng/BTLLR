@@ -16,9 +16,9 @@
 
 > Premine: 30 000 000 BTLLR.
 
-> Staking rewards: 40-50 BTLLR.
+> Staking rewards: 50 BTLLR.
 
-> Masternode rewards: 440-450 BTLLR.
+> Masternode rewards: 450 BTLLR.
 
 > Treasury*: 20 BTLLR.
 
@@ -27,7 +27,5 @@
 > Staking Age: 3 Hours.
 
 > Masternode collateral: 1 000 000 BTLLR.
-
-*after 72 000 block heigh
 
 [![N|Solid](https://i.imgur.com/jdkiMDF.png)](https://betller.io)
