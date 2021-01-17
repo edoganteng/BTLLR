@@ -20,8 +20,6 @@
 
 > Masternode rewards: 450 BTLLR.
 
-> Treasury*: 20 BTLLR.
-
 > Block time: 2 Minutes.
 
 > Staking Age: 3 Hours.
