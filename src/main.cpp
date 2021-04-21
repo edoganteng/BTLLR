@@ -1608,10 +1608,10 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 {
         int64_t ret = 0;
 
-    if (nHeight <= 200 && nHeight >= 0) {
-        ret = blockValue  / 100 * 0;
-    } else {
+    if (nHeight <= 184000 && nHeight >= 0) {
         ret = blockValue  / 100 * 90;
+    } else {
+        ret = blockValue  / 100 * 99;
 
     }
 

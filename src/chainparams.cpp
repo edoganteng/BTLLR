@@ -175,7 +175,7 @@ public:
         consensus.height_ZC_RecalcAccumulators = disabled;
 
         // fork away from old chain at this height
-        consensus.height_new_client = 999999;
+        consensus.height_new_client = 184000; // Enforce new masternode split
 
         // validation by-pass
         consensus.nPivxBadBlockTime = disabled;
