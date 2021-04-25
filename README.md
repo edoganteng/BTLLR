@@ -16,9 +16,9 @@
 
 > Premine: 30 000 000 BTLLR.
 
-> Staking rewards: 50 BTLLR.
+> Staking rewards: 5 BTLLR.
 
-> Masternode rewards: 450 BTLLR.
+> Masternode rewards: 495 BTLLR.
 
 > Block time: 2 Minutes.
 
